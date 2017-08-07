@@ -1,6 +1,7 @@
 
 var tablero = document.getElementById("tablero");
 var tabla = document.createElement("table");
+var btnLeft = document.getElementById("left");
 
 var mapa=[
 "******************",
@@ -18,17 +19,19 @@ var mapa=[
 
 
 for(var i =0; i<mapa.length; i++) {
-	var fila = document.createElement("tr");
+	    var fila = document.createElement("tr");
 	for(var j=0; j<mapa[i].length; j++) {
 		var celda = document.createElement("td");
       
-     		if(mapa[i][j] == "o" ) {
+     	if(mapa[i][j] == "o" ) {
 	     		celda.setAttribute("class", "initiate");
-     		}else if(mapa[i][j] == "W") {
+                      		}else if(mapa[i][j] == "W") {
    				celda.setAttribute("class", "finish");
-     		}else if(mapa[i][j] == "*") {
+     		   }else if(mapa[i][j] == "*")
+
+                   {
      			celda.setAttribute("class", "asterisco");
-     		}else if(mapa[i][j] == "_") {
+     		        }else if(mapa[i][j] == "_") {
      			celda.setAttribute("class", "subguion");
      		}		
      		     fila.appendChild(celda);

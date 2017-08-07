@@ -1,4 +1,7 @@
+*html{
 
+	background-color: #F1948A;
+}
 .asterisco{
 background-color: black;
 
@@ -18,7 +21,8 @@ background-color: black;
 }
 
 .button{
-	position: left;
+	
+
 }
 
 td{
@@ -28,3 +32,11 @@ td{
         padding: 10px;
 }
 
+#tablero {
+	background-image: url(https://image.freepik.com/vector-gratis/colorido-laberinto-fondo-conjunto-de-vectores_293-780.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+    max-height: 100%;
+
+   }
