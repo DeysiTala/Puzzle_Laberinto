@@ -20,10 +20,44 @@ background-color: black;
 	background-color: blue;
 }
 
-.button{
-	
-
+#lefts  {
+ 
+ border: none;
+ background: #3a7999;
+ color: #f2f2f2;
+ padding: 10px;
+ font-size: 18px;
+ border-radius: 5px;
+ position: relative;
+ box-sizing: border-box;
+ transition: all 500ms ease;
 }
+#rigths {
+ border: none;
+ background: #3a7999;
+ color: #f2f2f2;
+ padding: 10px;
+ font-size: 18px;
+ border-radius: 5px;
+ position: relative;
+ box-sizing: border-box;
+ transition: all 500ms ease;
+
+	}
+
+#moves{
+
+	border: none;
+ background: #3a7999;
+ color: #f2f2f2;
+ padding: 10px;
+ font-size: 18px;
+ border-radius: 5px;
+ position: relative;
+ box-sizing: border-box;
+ transition: all 500ms ease;
+	}
+
 
 td{
         width: 15px;
@@ -33,10 +67,23 @@ td{
 }
 
 #tablero {
-	background-image: url(https://image.freepik.com/vector-gratis/colorido-laberinto-fondo-conjunto-de-vectores_293-780.jpg);
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/bf/6f/81/bf6f8176eff5f6431d6f895a71fef8da.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
-	max-width: 100%;
-    max-height: 100%;
+	background-size: contain;
+	left: 52px;
+	top:45px;
+
+	 
+	/*max-width: 100%;
+    max-height: 100%;*/
 
    }
+
+.pequeño{
+     
+	 width: 35px; height: 35px;
+	 position: absolute ;
+	 left: 47px;
+	 top:415px;
+
+}
