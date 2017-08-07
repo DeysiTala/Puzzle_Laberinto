@@ -1,0 +1,30 @@
+
+.asterisco{
+background-color: black;
+
+}
+
+}
+.subguion{
+	background-color: black;
+}
+
+.initiate{
+  background-color: red;
+
+}
+.finish{
+	background-color: blue;
+}
+
+.button{
+	position: left;
+}
+
+td{
+        width: 15px;
+        height:  15px;
+        border: 1px;
+        padding: 10px;
+}
+
