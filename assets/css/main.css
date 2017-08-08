@@ -1,3 +1,5 @@
+
+
 *html{
 
 	background-color: #F1948A;
@@ -19,8 +21,11 @@ background-color: black;
 .finish{
 	background-color: blue;
 }
+.white{
+	background-color: white;
+}
 
-#lefts  {
+#turnDown  {
  
  border: none;
  background: #3a7999;
@@ -33,6 +38,19 @@ background-color: black;
  transition: all 500ms ease;
 }
 #rigths {
+ border: none;
+ background: #3a7999;
+ color: #f2f2f2;
+ padding: 10px;
+ font-size: 18px;
+ border-radius: 5px;
+ position: relative;
+ box-sizing: border-box;
+ transition: all 500ms ease;
+
+	}
+
+#left {
  border: none;
  background: #3a7999;
  color: #f2f2f2;
@@ -67,7 +85,7 @@ td{
 }
 
 #tablero {
-	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/bf/6f/81/bf6f8176eff5f6431d6f895a71fef8da.jpg);
+	/*background-image: url(https://s-media-cache-ak0.pinimg.com/originals/bf/6f/81/bf6f8176eff5f6431d6f895a71fef8da.jpg);*/
 	background-repeat: no-repeat;
 	background-size: contain;
 	left: 52px;
