@@ -37,6 +37,7 @@ for (var i = 0; i < mapa.length; i++) {
                 celda.setAttribute('class', 'asterisco');
             } else if(mapa[i][j] == "o"){
                 celda.setAttribute("class", "initiate");
+                //contenido y psicion
                 mapObj ={celda: celda, x:i, y:j};
             }else if(mapa[i][j] == "W"){
                 celda.setAttribute("class", "finish");
@@ -78,17 +79,29 @@ mapObj.celda.setAttribute("class" ,"initiate");
  }
  turnLeft.onclick= function(){
 
-if(mapa[mapObj.y+1][mapObj.x-1]== "_"){
+if(mapa[mapObj.x][mapObj.y+1]== "_"){
 mapObj.celda.setAttribute("class", "white");
 //mapObj.celda.removechild(mapObj.celda.firstchild);
-mapObj.celda= arr[mapObj.y+1][mapObj.y];
-mapObj.y = mapObj.y+1;
+mapObj.celda= arr[mapObj.x][mapObj.y +1];
+mapObj.y = mapObj.y + 1;
 mapObj.celda.setAttribute("class" ,"initiate");
 
  }
 
  }
+turnRigths.onclick= function(){
 
+if(mapa[mapObj.x][mapObj.y-1]== "_"){
+mapObj.celda.setAttribute("class", "white");
+//mapObj.celda.removechild(mapObj.celda.firstchild);
+//guardando la pisicion de x y 
+mapObj.celda= arr[mapObj.x][mapObj.y -1];
+mapObj.y = mapObj.y -1;
+mapObj.celda.setAttribute("class" ,"initiate");
+
+ }
+
+ }
 
 /*btnMove.onclick = function(){
     if(mapa[mapitaObj.x-1][mapitaObj.y] == "_"){
